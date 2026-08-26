@@ -1,0 +1,27 @@
+{
+  "name": "web-agent-orchestrator-mcp",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Multi-Agent System & Model Context Protocol (MCP) Server for Next.js 15, Vite, React, TypeScript, and Full-Stack Web applications.",
+  "type": "module",
+  "bin": {
+    "web-agent-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node ./dist/index.js",
+    "test": "node --test test/server.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Google DeepMind / Antigravity Team",
+  "license": "Apache-2.0"
+}
