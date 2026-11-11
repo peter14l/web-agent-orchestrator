@@ -1,3 +1,8 @@
+---
+name: web-orchestrator
+description: "Multi-agent orchestrator for rapidly designing, documenting, scaffolding, testing, and pushing full-stack Web applications (Next.js 15 App Router, React 19, Vite, TypeScript, Tailwind CSS v4, Prisma / Drizzle ORM, Zod, and NextAuth.js). Provides 11 specialized tools for prompt decomposition, docs scaffolding, GitHub setup, UI design, backend scaffolding, database setup, dependency research, error diagnostics, automated testing, and auth flow."
+---
+
 # Next.js / Vite / React / TypeScript Multi-Agent Orchestrator (MCP Server & Skill)
 
 > **Enterprise-grade Multi-Agent System & Model Context Protocol (MCP) Server for rapidly designing, documenting, scaffolding, testing, and pushing full-stack Web applications (Next.js 15 App Router, React 19, Vite, TypeScript, Tailwind CSS v4, Prisma / Drizzle ORM, Zod, and NextAuth.js).**
